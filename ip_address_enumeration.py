@@ -1,4 +1,4 @@
-# Multiple process using os.fork module
+# Multiple processes using os.fork module
 import os
 import subprocess
 
@@ -38,7 +38,7 @@ if __name__ == '__main__':
         os.wait()
 
 
-# Multiple thread using threading module
+# Multiple threads using threading module
 import os
 import threading
 
